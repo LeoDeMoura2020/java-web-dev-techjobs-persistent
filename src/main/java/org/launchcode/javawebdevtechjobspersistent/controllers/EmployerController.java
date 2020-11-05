@@ -29,7 +29,7 @@ public class EmployerController {
                                     Errors errors, Model model) {
 
         if (errors.hasErrors()) {
-            model.addAttribute("title", "Add Employer");
+            model.addAttribute("title", "Add Employers");
             return "employers/add";
         }
 

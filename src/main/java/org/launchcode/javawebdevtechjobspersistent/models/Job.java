@@ -3,7 +3,7 @@ package org.launchcode.javawebdevtechjobspersistent.models;
 import javax.persistence.*;
 
 @Entity
-public class Job{
+public class Job extends AbstractEntity {
 
     @Id
     @GeneratedValue
@@ -11,6 +11,7 @@ public class Job{
 
     private String name;
 
+//    @ManyToOne
     private String employer;
     private String skills;
 
